@@ -51,7 +51,7 @@ getPR <- function(country = NULL,
   }
 
 
-URL <- "https://map.ox.ac.uk/geoserver/Explorer/ows?service=wfs&version=2.0.0&request=GetFeature&outputFormat=csv&TypeName=surveys_pr"
+URL <- "https://map.ox.ac.uk/geoserver/Explorer/ows?service=wfs&version=2.0.0&request=GetFeature&outputFormat=csv&TypeName=PfPR_Data"
 
 if(tolower(species) == "both") {
 
